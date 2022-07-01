@@ -6,27 +6,34 @@ The goal of this project is to learn how to get started with building something 
   <img width="600" height="310" src="./autocompleteApp.gif">
 </p>
 
-## How to set up and push to Heroku:
-
+<details> 
+<summary> ## How to set up and push to Heroku: </summary>
+<br>
 1. `git init`
 2. heroku login
 3. echo `web:node server.js` > Procfile
 4. git add .
 5. git commit -m 'changes'
 6. git push heroku main
+</details>
 
-## How It's Made:
-
+<details>
+<summary> ## How It's Made: </summary>
+<br>
 **Tech used:** HTML, CSS, EJS, JavaScript, Express, MongoDB, Heroku
 
 This app is deployed on Heroku and delivers some HTML (which ≤ is  also connected to a MongoDB database which is not displaying anything so that it can be used on any project as bare bones.
+</details>
 
-## Optimizations:
-
+<details>
+<summary> ## Optimizations: </summary>
+<br>
 **Connection to MongoDB database** which is not displaying anything to provide the bare bones for a project. 
+</details>
 
-## Lessons Learned:
-
+<details>
+<summary>## Lessons Learned:</summary>
+<br>
 |       | **Step by step:**                                                                                     | 
 | :---- | :---------------------------------------------------------------------------------------------------- |
 | 1.    | Initialize npm and install dependencies // express, dotenv, cors, mongodb, ejs, nodemon (`--save-dev`)| 
@@ -55,9 +62,11 @@ This app is deployed on Heroku and delivers some HTML (which ≤ is  also connec
 |  // echo "web: node server.js" > Procfile  |  
 |  // git add .                              |  
 |  // git commit -m 'changes'                |
+</details>
 
-
-## Examples:
+<details>
+<summary>## Examples:</summary>
+<br>
 Take a look at these couple examples that I have in my own portfolio:
 
 **Random Quote Generator:** https://mooseki.github.io/JS-Random-Quote-Generator-Project/
@@ -65,6 +74,10 @@ Take a look at these couple examples that I have in my own portfolio:
 **Picture-in-Picture:** https://github.com/mooseki/JS-Picture-In-Picture-Project.git
 
 **Joke Teller:** #
+</details>
 
-## Acknowledgment:
+<details>
+<summary>## Acknowledgment:</summary>
+<br>
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/mayanwolfe.svg?style=social&label=Follow%20%40mayanwolfe)](https://twitter.com/mayanwolfe) - [Let's Make a Fullstack Template!](https://www.twitch.tv/videos/1511339035) :superhero_woman:
+</details>
