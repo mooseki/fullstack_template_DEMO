@@ -43,7 +43,7 @@ This app is deployed on Heroku and delivers some HTML (which ≤ is  also connec
 
 6. Set middleware
 
-7. Create . gitignore file
+7. Create `. gitignore` file
 
 8. Create Public and Views folders - add main.js and style.css to public and index.js to Views
 
@@ -51,19 +51,7 @@ This app is deployed on Heroku and delivers some HTML (which ≤ is  also connec
 
 10. Create heroku repo
 
-   `// heroku login`
-
-
-   `// heroku create simple-rap-api`
-
-
-   `// echo "web: node server.js" > Procfile`
-
-
-   `// git add .`
-
-
-   `// git commit -m 'changes'`
+      `// heroku login`   `// heroku create simple-rap-api`   `// echo "web: node server.js" > Procfile`   `// git add .`   `// git commit -m 'changes'`
 
 **`npm install dotenv`** lets us create environment variables and obscure them out of our main code eg DB password.
 
