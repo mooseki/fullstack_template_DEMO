@@ -40,13 +40,6 @@ This app is deployed on Heroku and delivers some HTML (which ≤ is  also connec
 | 9.    | From root, init local git repo and commit                                                             |
 | 10.   | Create heroku repo                                                                                    |
 
-|   // heroku login                          |  
-| :----------------------------------------- |
-|  // heroku create simple-rap-api           |  
-|  // echo "web: node server.js" > Procfile  |  
-|  // git add .                              |  
-|  // git commit -m 'changes'                |
-
   * **`npm install dotenv`** lets us create environment variables and obscure them out of our main code eg DB password.
 
   * **`npm install cors`** lets us bypass cross origin request blocks that can come up in our browser. It sets the cross origin request policy.
@@ -54,6 +47,15 @@ This app is deployed on Heroku and delivers some HTML (which ≤ is  also connec
   * **`npm install ejs`** helps us do templating; basically to dynamically generate HTML on the fly based on the data that we are passing from a server. We use because it is close in syntax to JS.
 
   * **`npm install nodemon --save-dev`** stops you from manually having to restart the server. We do not want nodemon in production so we say `--save-dev`
+
+
+|   // heroku login                          |  
+| :----------------------------------------- |
+|  // heroku create simple-rap-api           |  
+|  // echo "web: node server.js" > Procfile  |  
+|  // git add .                              |  
+|  // git commit -m 'changes'                |
+
 
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
