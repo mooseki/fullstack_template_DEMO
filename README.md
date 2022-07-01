@@ -17,7 +17,7 @@ The goal of this project is to learn how to get started with building something 
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, EJS, JavaScript, Express, MongoDB
+**Tech used:** HTML, CSS, EJS, JavaScript, Express, MongoDB, Heroku
 
 This app is deployed on Heroku and delivers some HTML (which ≤ is  also connected to a MongoDB database which is not displaying anything so that it can be used on any project as bare bones.
 
@@ -51,11 +51,11 @@ This app is deployed on Heroku and delivers some HTML (which ≤ is  also connec
 
 10. Create heroku repo
 
-// heroku login
-// heroku create simple-rap-api
-// echo "web: node server.js" > Procfile
-// git add .
-// git commit -m 'changes'
+`// heroku login`
+`// heroku create simple-rap-api`
+`// echo "web: node server.js" > Procfile`
+`// git add .`
+`// git commit -m 'changes'`
 
 **npm install dotenv** lets us create environment variables and obscure them out of our main code eg DB password.
 
@@ -74,3 +74,6 @@ Take a look at these couple examples that I have in my own portfolio:
 **Picture-in-Picture:** https://github.com/mooseki/JS-Picture-In-Picture-Project.git
 
 **Joke Teller:** #
+
+## Acknowledgment:
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/mayanwolfe.svg?style=social&label=Follow%20%40mayanwolfe)](https://twitter.com/mayanwolfe) - [Let's Make a Fullstack Template!](https://www.twitch.tv/videos/1511339035)
