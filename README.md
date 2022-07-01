@@ -29,13 +29,16 @@ This app is deployed on Heroku and delivers some HTML (which ≤ is  also connec
 
 | **Step by step:**   |                                                                                                 | 
 | :-----------------  | :--------------------------------------------------------------------------------------------   |
-| 1.                  | Initialize npm and install dependencies                                                         | 
-|                     | // express, dotenv, cors, mongodb, ejs, nodemon (`--save-dev`)                                  |
+| 1.                  | Initialize npm and install dependencies
+
+                        // express, dotenv, cors, mongodb, ejs, nodemon (`--save-dev`)                                  | 
+
 | 2.                  | Require dependencies in server.js                                                               |
 | 3.                  | Declare variables                                                                               |
 | 4.                  | Connect to MongoDB — and connection string to `.env` file                                       |
-| 5.                  | Create Port                                                                                     |
-|                     | // ----Test Mongo and Port connection                                                           |
+| 5.                  | Create Port 
+
+                        // ----Test Mongo and Port connection                                                           |
 | 6.                  | Set middleware                                                                                  |
 | 7.                  | Create `. gitignore` file                                                                       |
 | 8.                  | Create Public and Views folders - add main.js and style.css to public and index.js to Views     |
