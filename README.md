@@ -29,7 +29,7 @@ This app is deployed on Heroku and delivers some HTML (which ≤ is  also connec
 
 **Step by step:** 
 1. Initialize npm and install dependencies
-// express, dotenv, cors, mongodb, ejs, nodemon (--save-dev)
+   // express, dotenv, cors, mongodb, ejs, nodemon (`--save-dev`)
 
 2. Require dependencies in server.js
 
@@ -39,7 +39,7 @@ This app is deployed on Heroku and delivers some HTML (which ≤ is  also connec
 
 5. Create Port
 
-// ----Test Mongo and Port connection
+   // ----Test Mongo and Port connection
 
 6. Set middleware
 
@@ -51,28 +51,28 @@ This app is deployed on Heroku and delivers some HTML (which ≤ is  also connec
 
 10. Create heroku repo
 
-`// heroku login`
+   `// heroku login`
 
 
-`// heroku create simple-rap-api`
+   `// heroku create simple-rap-api`
 
 
-`// echo "web: node server.js" > Procfile`
+   `// echo "web: node server.js" > Procfile`
 
 
-`// git add .`
+   `// git add .`
 
 
-`// git commit -m 'changes'`
+   `// git commit -m 'changes'`
 
-**npm install dotenv** lets us create environment variables and obscure them out of our main code eg DB password.
+**`npm install dotenv`** lets us create environment variables and obscure them out of our main code eg DB password.
 
-**npm install cors** lets us bypass cross origin request blocks that can come up in our browser. It sets the cross origin request policy.
+**`npm install cors`** lets us bypass cross origin request blocks that can come up in our browser. It sets the cross origin request policy.
 
-**npm install ejs** helps us do templating; basically to dynamically generate HTML on the fly based on the data that we are passing from a server. 
+**`npm install ejs`** helps us do templating; basically to dynamically generate HTML on the fly based on the data that we are passing from a server. 
 We use because it is close in syntax to JS.
 
-**npm install nodemon --save-dev** stops you from manually having to restart the server. We do not want nodemon in production so we say --save-dev
+**`npm install nodemon --save-dev`** stops you from manually having to restart the server. We do not want nodemon in production so we say `--save-dev`
 
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
