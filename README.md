@@ -27,18 +27,18 @@ This app is deployed on Heroku and delivers some HTML (which ≤ is  also connec
 
 ## Lessons Learned:
 
-| **Step by step:**   |                                                                                                       | 
-| :-----------------  | :---------------------------------------------------------------------------------------------------- |
-| 1.                  | Initialize npm and install dependencies // express, dotenv, cors, mongodb, ejs, nodemon (`--save-dev`)| 
-| 2.                  | Require dependencies in server.js                                                                     |
-| 3.                  | Declare variables                                                                                     |
-| 4.                  | Connect to MongoDB — and connection string to `.env` file                                             |
-| 5.                  | Create Port // ----Test Mongo and Port connection                                                     |
-| 6.                  | Set middleware                                                                                        |
-| 7.                  | Create `. gitignore` file                                                                             |
-| 8.                  | Create Public and Views folders - add main.js and style.css to public and index.js to Views           |
-| 9.                  | From root, init local git repo and commit                                                             |
-| 10.                 | Create heroku repo                                                                                    |
+|       | **Step by step:**                                                                                     | 
+| :---- | :---------------------------------------------------------------------------------------------------- |
+| 1.    | Initialize npm and install dependencies // express, dotenv, cors, mongodb, ejs, nodemon (`--save-dev`)| 
+| 2.    | Require dependencies in server.js                                                                     |
+| 3.    | Declare variables                                                                                     |
+| 4.    | Connect to MongoDB — and connection string to `.env` file                                             |
+| 5.    | Create Port // ----Test Mongo and Port connection                                                     |
+| 6.    | Set middleware                                                                                        |
+| 7.    | Create `. gitignore` file                                                                             |
+| 8.    | Create Public and Views folders - add main.js and style.css to public and index.js to Views           |
+| 9.    | From root, init local git repo and commit                                                             |
+| 10.   | Create heroku repo                                                                                    |
 
    `// heroku login`   `// heroku create simple-rap-api`   `// echo "web: node server.js" > Procfile`   `// git add .`   `// git commit -m 'changes'`
 
