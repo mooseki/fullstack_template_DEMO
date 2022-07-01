@@ -71,8 +71,6 @@ Take a look at these couple examples that I have in my own portfolio:
 **Joke Teller:** #
 
 
-<details>
-<summary>## Acknowledgment:</summary>
-<br>
+## Acknowledgment:
+
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/mayanwolfe.svg?style=social&label=Follow%20%40mayanwolfe)](https://twitter.com/mayanwolfe) - [Let's Make a Fullstack Template!](https://www.twitch.tv/videos/1511339035) :superhero_woman:
-</details>
