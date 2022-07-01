@@ -28,7 +28,7 @@ This app is deployed on Heroku and delivers some HTML (which ≤ is  also connec
 ## Lessons Learned:
 
 | **Step by step:**   |                                                                                                 | 
-| :-----------------: | --------------------------------------------------------------------------------------------:   |
+| :-----------------  | :--------------------------------------------------------------------------------------------   |
 | 1.                  | Initialize npm and install dependencies                                                         | 
 |                     | // express, dotenv, cors, mongodb, ejs, nodemon (`--save-dev`)                                  |
 | 2.                  | Require dependencies in server.js                                                               |
