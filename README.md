@@ -40,7 +40,7 @@ This app is deployed on Heroku and delivers some HTML (which ≤ is  also connec
 | 9.    | From root, init local git repo and commit                                                             |
 | 10.   | Create heroku repo                                                                                    |
 
-|   // heroku login  |  // heroku create simple-rap-api  |  // echo "web: node server.js" > Procfile  |   // git add . |  // git commit -m 'changes'  |
+|   #####// heroku login  |  #####// heroku create simple-rap-api  |  #####// echo "web: node server.js" > Procfile  |   #####// git add . |  #####// git commit -m 'changes'  |
 | :----------------: | :-------------------------------: | :----------------------------------------: | :------------: | :--------------------------: |
 
   * **`npm install dotenv`** lets us create environment variables and obscure them out of our main code eg DB password.
