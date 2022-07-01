@@ -1,4 +1,4 @@
-# fullstack_template
+# fullstack_template :dizzy:
 
 The goal of this project is to learn how to get started with building something that is truly fullstack from the ground up. How do I get started? What steps do I follow? What steps am I missing? Why am I getting this error? Why can't I get connected to MongoDB? 
 
@@ -21,7 +21,7 @@ The goal of this project is to learn how to get started with building something 
 
 This app is deployed on Heroku and delivers some HTML (which ≤ is  also connected to a MongoDB database which is not displaying anything so that it can be used on any project as bare bones.
 
-## Optimizations
+## Optimizations:
 
 **Connection to MongoDB database** which is not displaying anything to provide the bare bones for a project. 
 
@@ -76,4 +76,4 @@ Take a look at these couple examples that I have in my own portfolio:
 **Joke Teller:** #
 
 ## Acknowledgment:
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/mayanwolfe.svg?style=social&label=Follow%20%40mayanwolfe)](https://twitter.com/mayanwolfe) - [Let's Make a Fullstack Template!](https://www.twitch.tv/videos/1511339035)
+:supervillain_woman: [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/mayanwolfe.svg?style=social&label=Follow%20%40mayanwolfe)](https://twitter.com/mayanwolfe) - [Let's Make a Fullstack Template!](https://www.twitch.tv/videos/1511339035)
