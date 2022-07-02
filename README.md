@@ -33,6 +33,7 @@ This app is deployed on Heroku and delivers some HTML (which ≤ is  also connec
 | 2.    | Require dependencies in server.js                                                                     |
 | 3.    | Declare variables                                                                                     |
 | 4.    | Connect to MongoDB — and connection string to `.env` file                                             |
+| 4.    | Add `.env` file to `.gitignore` file                                             |
 | 5.    | Create Port // ----Test Mongo and Port connection                                                     |
 | 6.    | Set middleware                                                                                        |
 | 7.    | Create `. gitignore` file                                                                             |
