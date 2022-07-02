@@ -10,3 +10,17 @@ const app = express();
 const cors = require(cors);
 const MongoClient = require("mongodb").MongoClient;
 require("dotenv").config();
+
+
+// process.env.DB_STRING pulls our secret connection string we got from mongodb to assign it as a variable
+let db, 
+    dbConnectionString = process.env.DB_STRING,
+    dbName = '',
+    collection
+
+MongoClient.connect(dbConnectionString)
+.then(client => {
+    console.log(`Connected to Database`)
+    db = client.db(dbName)
+    collection = db.collection('movies')
+})
