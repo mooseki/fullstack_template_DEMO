@@ -6,6 +6,7 @@ The goal of this project is to learn how to get started with building something 
   <img width="600" height="310" src="./autocompleteApp.gif">
 </p>
 
+
 ## How to set up and push to Heroku:
 
 1. `git init`
@@ -24,6 +25,7 @@ This app is deployed on Heroku and delivers some HTML (which ≤ is  also connec
 ## Optimizations:
 
 **Connection to MongoDB database** which is not displaying anything to provide the bare bones for a project. 
+
 
 ## Lessons Learned:
 
@@ -58,7 +60,9 @@ This app is deployed on Heroku and delivers some HTML (which ≤ is  also connec
 |  // git commit -m 'changes'                |
 
 
+
 ## Examples:
+
 Take a look at these couple examples that I have in my own portfolio:
 
 **Random Quote Generator:** https://mooseki.github.io/JS-Random-Quote-Generator-Project/
@@ -67,5 +71,7 @@ Take a look at these couple examples that I have in my own portfolio:
 
 **Joke Teller:** #
 
+
 ## Acknowledgment:
+
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/mayanwolfe.svg?style=social&label=Follow%20%40mayanwolfe)](https://twitter.com/mayanwolfe) - [Let's Make a Fullstack Template!](https://www.twitch.tv/videos/1511339035) :superhero_woman:
