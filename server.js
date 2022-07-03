@@ -12,11 +12,12 @@ const app = express();
 const cors = require(cors);
 const MongoClient = require("mongodb").MongoClient;
 require("dotenv").config();
+const PORT = 8000;
 
 // process.env.DB_STRING pulls our secret connection string we got from mongodb to assign it as a variable
 let db,
   dbConnectionString = process.env.DB_STRING,
-  dbName = "",
+  dbName = "sample_mflix",
   collection;
 
 MongoClient.connect(dbConnectionString).then((client) => {
@@ -41,5 +42,5 @@ app.get("/", async (request, response) => {
 
 // PORT - 8000
 app.listen(process.env.PORT || PORT, () => {
-  console.log(`Server is running on port = ${PORT}`);
+  console.log(`Server is running on port`);
 });
