@@ -6,6 +6,7 @@
 // npm install nodemon --save-dev stops you from manually having to restart the server. We do not want nodemon in production so we say --save-dev
 // middleware is used  to run before your routes (i.e any GETS or PUTS) — for example we have an instance on lines 28-31 we're setting up a folder to hold our css to let use external files from the public folder
 
+const { response } = require("express");
 const express = require("express");
 const app = express();
 const cors = require(cors);
@@ -29,6 +30,14 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
+
+app.get("/", async (request, response) => {
+  try {
+    response.render("index.ejs");
+  } catch (error) {
+    response.status(500).send({ message: error.message });
+  }
+});
 
 // PORT - 8000
 app.listen(process.env.PORT || PORT, () => {
