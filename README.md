@@ -50,7 +50,7 @@ This app is deployed on Heroku and delivers HTML using EJS. It is also connected
 |  3.  |  // echo "web: node server.js" > Procfile  |  
 |  4.  |  // git add .                              |
 |  5.  |  // git commit -m 'changes'                |
-|  6.  |  // git push heroku main                   |
+|  6.  |  // cl                   |
 |  7.  |  //---- Test Heroku link                   |
 
   * **`npm install .env`** lets us create environment variables and obscure them out of our main code eg DB password.
