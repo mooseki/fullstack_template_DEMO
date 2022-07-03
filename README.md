@@ -30,16 +30,16 @@ This app is deployed on Heroku and delivers HTML using EJS. It is also connected
 ## Lessons Learned:
 
 |       | **Step by step template creation:**                                                                                     | 
-| :---- | :---------------------------------------------------------------------------------------------------- |
+| :--- | :---------------------------------------------------------------------------------------------------- |
 | 1.    | Initialize npm and install dependencies // express, dotenv, cors, mongodb, ejs, nodemon (`--save-dev`)| 
 | 2.    | Require dependencies in server.js                                                                     |
 | 3.    | Declare variables                                                                                     |
-| 7.    | Create `. gitignore` file and push to github file                                                                             |
-| 4.    | Connect to MongoDB — add connection string to `.env` file                                             |
-| 4.    | Add `.env` file to `.gitignore` file                                             |
-| 5.    | Create Port // ----Test Mongo and Port connection                                                     |
-| 6.    | Set middleware                                                                                        |
-| 8.    | Create Public and Views folders - add main.js and style.css to public and index.ejs to Views           |
+| 4.    | Create `. gitignore` file and push to github file                                                                             |
+| 5.    | Connect to MongoDB — add connection string to `.env` file                                             |
+| 6.    | Add `.env` file to `.gitignore` file                                             |
+| 7.    | Create Port // ----Test Mongo and Port connection                                                     |
+| 8.    | Set middleware                                                                                        |
+| 9.    | Create Public and Views folders - add main.js and style.css to public and index.ejs to Views           |
 | 9.    | Add content to main.js, style.css, index.ejs                                                             |
 | 10.   | Create heroku repo                                                                                    |
 
